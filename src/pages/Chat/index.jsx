@@ -7,4 +7,7 @@ import ReXMessage from "../../components/ReXMessage";
 import api from "../../api/sessions";
 import OpenAI from "openai";
 import { useParams } from "react-router-dom";
+import UserMessage from "../../components/UserMessage";
+import useMediaQuery from "@mui/material";
+import WidthError from "../../components/WidthError";
 
