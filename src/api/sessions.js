@@ -2,7 +2,7 @@
 import axios from "axios";
 // Creating an axios instance with default configuration.
 export default axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "http://localhost:3500/",
 });
 
 

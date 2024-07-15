@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Grid, Button} from "@mui/material";
 import Images from "../../constants/images";
-import ChatHistoryStyles from "../../styles/chatHistoryStyles";
+import ChatHistoryStyles from "../../styles/chatHistory";
 import { useNavigate } from "react-router-dom";
 import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";

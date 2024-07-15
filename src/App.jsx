@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Importing necessary components from React Router.
 import Chat from "./pages/Chat"; // Importing the Chat component.
+import Layout from "./Layout";
+import Home from "./pages/Home"; // Importing the Home component.
 
 /**
  * The root component of the application, responsible for defining routes using React Router.
@@ -10,8 +12,13 @@ function App() {
     <Router>
       {/* The `Routes` component is used to define the routing configuration */}
       <Routes>
-        {/* Direct route for testing the Chat component */}
-        <Route path="/sessions/:id" element={<Chat />} />
+        {/* The `Route` component defines individual routes */}
+        <Route element={<Layout />}>
+          {/* Route for the Home page */}
+          <Route path="/" index element={<Home />}></Route>
+          {/* Route for individual chat sessions */}
+          <Route path="/sessions/:id" element={<Chat />}></Route>
+        </Route>
       </Routes>
     </Router>
   );
