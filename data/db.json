@@ -1,3 +1,29 @@
 {
-  "sessions": []
+  "sessions": [
+    {
+      "id": "1",
+      "date": "Jul 16 2024",
+      "chats": [
+        {
+          "ReX": [
+            "Hello User, I am ReX. 😁",
+            "What aspect of your career would you like guidance on?"
+          ]
+        },
+        {
+          "user": "429 error for sure cause i have no money = ))) \n",
+          "ReX": "Error in fetch response from OpenAI. Please try again."
+        },
+        {
+          "user": "bro \n",
+          "ReX": "Error in fetch response from OpenAI. Please try again."
+        },
+        {
+          "user": "bro \n",
+          "ReX": "Error in fetch response from OpenAI. Please try again."
+        }
+      ],
+      "isSessionEnded": false
+    }
+  ]
 }

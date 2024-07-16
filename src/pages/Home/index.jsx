@@ -27,7 +27,9 @@ function Home() {
   const navigator = useNavigate();
   // useMediaQuery hook to check if the screen width is at least 600px
   // eslint-disable-next-line no-unused-vars
-  const matches = useMediaQuery("(min-width:600px)");
+
+  // const matches = useMediaQuery("(min-width:600px)");
+  
   // State to manage the loading state
   const [loading, setLoading] = useState(true);
   // Array of introductory messages for ReX
@@ -151,9 +153,9 @@ function Home() {
   // Returning the JSX for the Home component
   return (
     // If the screen size is more than 600px then displaying the message to set the width to 600px else displaying the content.
-    matches ? (
-      <WidthError />
-    ) : (
+    // matches ? (
+    //   <WidthError />
+    // ) : (
       // Grid container for the main layout
       <Grid container /* style={{ display: matches ? "none" : "block" }} */>
         {loading ? (
@@ -250,7 +252,7 @@ function Home() {
         )}
       </Grid>
     )
-  );
+  // );
 }
 
 // Exporting the Home component as the default export

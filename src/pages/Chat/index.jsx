@@ -37,8 +37,10 @@ const Chat = () => {
     const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
     // OpenAI instance configured with the API key
     const openai = new OpenAI({ apiKey: API_KEY, dangerouslyAllowBrowser: true });
+    
     // useMediaQuery hook to check if the screen width is at least 600px
-    const matches = useMediaQuery("(min-width: 600px)");
+    // const matches = useMediaQuery("(min-width: 600px)");
+    
     // Array to manage chat keys
     let chatKeys = [];
 
@@ -177,9 +179,9 @@ const Chat = () => {
     // Returning the JSX for the Chat component
     return (
         // If the screen size is more than 600px then displaying the message to set the width to 600px else displaying the content.
-        matches ? (
-            <WidthError />
-          ) : (
+        // matches ? (
+        //     <WidthError />
+        //   ) : (
             <>
               {/* Grid container for the main layout */}
               <Grid>
@@ -243,7 +245,7 @@ const Chat = () => {
               </Grid>
             </>
           )
-        );
+        // );
       };
       
       // Exporting the Chat component as the default export
