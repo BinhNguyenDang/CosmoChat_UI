@@ -1,5 +1,10 @@
 # CosmoChat UI
 
+![image](https://github.com/user-attachments/assets/fcff13be-32f2-49cb-aae1-f19f2326170a)
+![image](https://github.com/user-attachments/assets/1bd99b13-cf90-42e7-b979-0696e6d614f3)
+
+
+
 ## Overview:
 CosmoChat UI is the frontend application that enables users to engage in chat sessions with an AI chatbot powered by OpenAI's language model. The primary objective is to offer a seamless platform for users to interact with the chatbot, ask questions, and receive responses naturally. It incorporates features such as activity tracking, session ending, and session management.
 
